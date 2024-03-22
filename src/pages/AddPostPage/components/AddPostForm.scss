@@ -1,0 +1,17 @@
+.add-post-form {
+  margin: 64px 0 76px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 68px;
+
+  &__btns {
+    display: flex;
+    justify-content: end;
+    column-gap: 24px;
+  }
+}
+
+.box-input {
+  display: flex;
+  column-gap: 33px;
+}

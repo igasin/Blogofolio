@@ -1,0 +1,19 @@
+.footer {
+  margin-top: auto;
+
+  &__wrapper {
+    height: 91px;
+    margin-top: 80px;
+    border-top: 1px solid #dadada;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #8d8e97;
+  }
+}

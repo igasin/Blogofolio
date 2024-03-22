@@ -1,0 +1,33 @@
+.container-theme {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  row-gap: 72px;
+  padding: 72px 5px 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1130px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.dark {
+  color: #fff;
+  background-color: #313037;
+
+  svg {
+    path {
+      fill: #fff;
+    }
+  }
+}
+
+.light {
+  color: #313037;
+  background-color: #f3f3f3;
+}

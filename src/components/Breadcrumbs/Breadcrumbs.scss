@@ -1,0 +1,19 @@
+.breadcrumbs {
+  margin-bottom: 32px;
+
+  &__link {
+    color: #313037;
+
+    &:hover {
+      color: #2231aa;
+    }
+
+    &:not(:last-child):after {
+      content: ' | ';
+    }
+  }
+
+  &__text {
+    color: #8d8e97;
+  }
+}
